@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d8ffbf6-7d78-4a1c-867b-457fdc9fab59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EzSK86BueGVqjxsBCDP5wH11yg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/projects/ToDoList_Task",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d8ffbf6-7d78-4a1c-867b-457fdc9fab59" name="Changes" comment="" />
+      <created>1663596852258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663596852258</updated>
+      <workItem from="1663596853537" duration="9457000" />
+      <workItem from="1663620335043" duration="12741000" />
+      <workItem from="1663657613141" duration="39000" />
+      <workItem from="1664963270418" duration="9273000" />
+      <workItem from="1664992794398" duration="5652000" />
+      <workItem from="1665092171021" duration="4269000" />
+      <workItem from="1665099873961" duration="29000" />
+      <workItem from="1665251557638" duration="5032000" />
+      <workItem from="1665340324168" duration="6008000" />
+      <workItem from="1665554148692" duration="1712000" />
+      <workItem from="1665572341448" duration="20791000" />
+      <workItem from="1665647149578" duration="9711000" />
+      <workItem from="1665689831540" duration="7729000" />
+      <workItem from="1665737223907" duration="1446000" />
+      <workItem from="1665777824156" duration="596000" />
+      <workItem from="1665824139735" duration="10360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

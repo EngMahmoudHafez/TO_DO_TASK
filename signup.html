@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/sign.css">
+</head>
+<body>
+
+        <div class="signup__container">
+            <div class="container__child signup__thumbnail">
+                <div class="thumbnail__logo">
+                    <img class="logo__shape" width="50px" src="img/mahmoud-logo.png"/>
+                    <h1 class="logo__text">TO DO LIST</h1>
+        </div>
+        <div class="thumbnail__content text-center">
+            <h1 class="heading--primary">Welcome to My paqe...</h1>
+            <h2 class="heading--secondary">Are you ready to do your tasks regulary ?</h2>
+            <h2>Powerd By Mahmoud Hafez<span>&#128521</span></h2>
+        </div>
+
+        <div class="signup__overlay"></div>
+        </div>
+        <div class="container__child signup__form">
+            <div class="formcontainer">
+                <h1 class="signin">SIGN UP</h1>
+                <form action="app/adduser.php" method="post">
+                    <div class="form-group">
+                        <label >Name</label>
+                        <input class="form-control" type="text" name="username"
+                               id="username" placeholder="Mahmoud Hafez" required />
+                    </div>
+                    <div class="form-group">
+                        <label >Email</label>
+                        <input class="form-control" type="text" name="email"
+                               id="email" placeholder="MahmoudHafez@gmail.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label >Age</label>
+                        <input class="form-control" type="text" name="age"
+                               id="age" placeholder="20" required />
+                    </div><div class="form-group">
+                        <label >Phone</label>
+                        <input class="form-control" type="text" name="phone"
+                               id="phone" placeholder="01010101010" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input class="form-control" type="password" name="password"
+                               id="password" placeholder="********" required />
+                    </div>
+
+                    <div class="m-t-lg">
+                        <ul class="list-inline">
+                            <li>
+                                <input class="btn btn--form" type="submit" value="Register" />
+                            </li>
+                            <li>
+                                <a class="signup__link" href="http://localhost/projects/ToDoList_Task/signin.html">I am already a member</a>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        </div>
+
+</body>
+</html>

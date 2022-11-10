@@ -1,10 +1,13 @@
 body {
     font: italic 70% "Fira Sans", serif;
-    background: cornflowerblue;
+    background: #1274d5;
 }
-a, [type="submit"] {
+
+a,
+[type="submit"] {
     transition: all 0.25s ease-in;
 }
+
 .signup__container {
     position: absolute;
     top: 50%;
@@ -25,6 +28,7 @@ a, [type="submit"] {
     align-content: flex-end;
     flex-wrap: nowrap;
 }
+
 .signup__overlay {
     position: absolute;
     top: 0;
@@ -39,6 +43,7 @@ a, [type="submit"] {
     height: 100%;
     color: #fff;
 }
+
 @media (max-width: 800px) {
     .signup__container {
         flex-direction: column;
@@ -46,74 +51,106 @@ a, [type="submit"] {
         width: auto;
     }
 }
+
 .signup__thumbnail {
     position: relative;
     padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: url(../img/-5812233586907134480_121.jpg);
+    background: url(../img/-5451623339551472283_120.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     flex-direction: column;
 }
-.thumbnail__logo, .thumbnail__content, .thumbnail__links {
+
+.thumbnail__logo,
+.thumbnail__content,
+.thumbnail__links {
     position: relative;
     z-index: 2;
 }
+
 .thumbnail__logo {
     align-self: flex-start;
 }
+
 .logo__shape {
     margin-top: 10px;
     padding-top: 20px;
     fill: #fff;
+    box-shadow: 0px 0.2rem 0.4rem rgb(0 0 0 / 50%);
+
 }
-.thumbnail__content{
-    padding-top: 20rem;
-    padding-left: -10rem;
+
+.thumbnail__content {
+    display: inline-block;
+    padding-top: 40rem;
+    padding-block: inherit;
+    padding-inline-end: initial;
 }
+
 .logo__text {
     display: inline-block;
-
     font-weight: 900;
     vertical-align: bottom;
 }
-.signin{
-    padding-left: 15rem;
+
+.signin {
+    padding-left: 10rem;
     color: #111111;
     font-size: 300%;
     font-style: normal;
+    display: inline-block;
+
 }
-h1, h2 {
+
+h1,
+h2 {
     font-weight: 300;
     color: rgba(255, 255, 255, 1);
 }
+
 .heading--primary {
     font-size: 1.999rem;
 }
+
 .heading--secondary {
     font-size: 1.414rem;
 }
+
 .thumbnail__links {
     align-self: flex-end;
     width: 100%;
 }
+
 .thumbnail__links a {
     font-size: 1rem;
     color: #fff;
 }
-.thumbnail__links a:focus, .thumbnail__links a:hover {
+
+.thumbnail__links a:focus,
+.thumbnail__links a:hover {
     color: rgba(255, 255, 255, .5);
 }
-.formcontainer{
-    padding-top: 2rem;
+
+.formcontainer {
+    padding-top: 1rem;
 }
+
 .signup__form {
     padding: 2.0rem;
     background: #fafafa;
 }
+
+.error {
+    text-align: center;
+    color: #ff0000;
+    font-size: 150%;
+    font-style: normal;
+}
+
 label {
     font-size: 120%;
     text-transform: uppercase;
@@ -124,34 +161,37 @@ label {
     float: left;
     width: 25%;
     margin-top: 6px;
-
-
 }
-.form-group{
+
+.form-group {
     display: flex;
     padding-bottom: 10px;
-
 }
-input[type=text],input[type=password],select, textarea{
+
+input[type=text],
+input[type=password],
+select,
+textarea {
     width: 70%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 15px;
     box-sizing: border-box;
     resize: vertical;
-
 }
+
 .form-control {
     background-color: transparent;
     border-top: 0;
     border-right: 0;
     border-left: 0;
     border-radius: 0;
-
 }
+
 .form-control:focus {
     border-color: #111;
 }
+
 .btn--form {
     padding: 0.5rem 2.5rem;
     font-size: 0.95rem;
@@ -163,9 +203,14 @@ input[type=text],input[type=password],select, textarea{
     margin-bottom: 10px;
     margin-left: 30%;
 }
-.btn--form:focus, .btn--form:hover {
+
+.btn--form:hover {}
+
+.btn--form:focus,
+.btn--form:hover {
     background: blue;
 }
+
 .signup__link {
     font-size: 0.8rem;
     font-weight: 600;
@@ -173,7 +218,8 @@ input[type=text],input[type=password],select, textarea{
     color: #999;
     margin-left: 35%;
 }
-.signup__link:focus, .signup__link:hover {
+
+.signup__link:focus,
+.signup__link:hover {
     color: #787878;
 }
- 

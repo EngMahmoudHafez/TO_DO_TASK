@@ -17,7 +17,7 @@ if (isset($_POST ['email'])){
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/sign.css">
 </head>
 <body>
 

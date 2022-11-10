@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d8ffbf6-7d78-4a1c-867b-457fdc9fab59" name="Changes" comment="edit signup page">
+    <list default="true" id="6d8ffbf6-7d78-4a1c-867b-457fdc9fab59" name="Changes" comment="edit signin tag in signup page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todotask.sql" beforeDir="false" afterPath="$PROJECT_DIR$/todotask.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/material-design-iconic-font/css/material-design-iconic-font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sign.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/needs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin.php" beforeDir="false" afterPath="$PROJECT_DIR$/signin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/projects/ToDoList_Task&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/xampp/htdocs/projects/PHP-OOP-Projects-master",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +70,12 @@
       <workItem from="1665737223907" duration="1446000" />
       <workItem from="1665777824156" duration="596000" />
       <workItem from="1665824139735" duration="11721000" />
-      <workItem from="1665936741923" duration="1511000" />
+      <workItem from="1665936741923" duration="2453000" />
+      <workItem from="1666085729695" duration="646000" />
+      <workItem from="1666122083268" duration="186000" />
+      <workItem from="1666455498911" duration="600000" />
+      <workItem from="1666633125564" duration="188000" />
+      <workItem from="1668104297226" duration="1173000" />
     </task>
     <task id="LOCAL-00001" summary="first commit here">
       <created>1665844569289</created>
@@ -74,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665844569289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edit signin tag in signup page">
+      <created>1665939210166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665939210166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit here" />
     <MESSAGE value="edit signup page" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit signup page" />
+    <MESSAGE value="edit signin tag in signup page" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit signin tag in signup page" />
   </component>
 </project>
